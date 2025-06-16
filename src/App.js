@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import Form from './form'
 import Button from './button'
 import style from './App.module.css'
@@ -38,7 +38,7 @@ export default function App() {
                     <p>{card.email}</p>
                     <p>{card.phone}</p>
                     <p>{card.address}</p>
-                    <a href='#'>{card.links}</a>
+                    <a href={card.links}>{card.links}</a>
                 </div>
             </div>
           ) :
@@ -53,7 +53,7 @@ export default function App() {
                   <p>{card.email}</p>
                   <p>{card.phone}</p>
                   <p>{card.address}</p>
-                  <a href='#'>{card.links}</a>
+                  <a href={card.links}>{card.links}</a>
               </div>
             </div>
           ) : null}

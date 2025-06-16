@@ -17,7 +17,7 @@ export default function Form({ callBack }) {
   }
 
   const isValidePhn = ()=>{
-    const pattern = /^(\+91[\-\s]?)?[0]?[6-9]\d{9}$/;
+    const pattern = /^(\+91[\-\s]?)? [0]?[6-9]\d{9}$/;;
     return pattern.test(phnRef.current.value);
   }
 
