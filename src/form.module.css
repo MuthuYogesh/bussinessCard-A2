@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+
+input{
+    width: 90%;
+    height: 4vh;
+    border-radius: 5px;
+    border: 2px solid #063970;
+}
+
+label{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+select{
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+.btns{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
